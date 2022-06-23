@@ -19,16 +19,16 @@ namespace CourierManagementSystem
 
             Console.WriteLine("---------------------------------");
             Console.WriteLine("Input an Option: ");
-            String SystemOptions = Console.ReadLine();
-            int DisplayMenu = Int32.Parse(SystemOptions);
+            String Option = Console.ReadLine();
+            int num = Int32.Parse(Option);
 
-            if (DisplayMenu == 1)
+            if (num == 1)
                  {
 
                     Validation validation = new Validation();
                     validation.validator1();
                  }
-            if (DisplayMenu == 2)
+            if (num == 2)
 
                 {
 
@@ -37,8 +37,8 @@ namespace CourierManagementSystem
 
                 }
 
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (DisplayMenu == 3)
+            if (num == 3)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (num == 3)
                 {
                     Validation validation3 = new Validation();
                     validation3.validator3();
